@@ -31,4 +31,4 @@ Primeiramente, atente-se e veja se você já possui o node instalado. Para isso,
 ## Tecnologias utilizadas
   - Node.js
   - Express
-  - MongoDB
+
