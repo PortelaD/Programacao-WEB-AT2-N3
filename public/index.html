@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Acervo de Livraria</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciamento de Acervo de Livraria</h1>
+    </header>
+    <main>
+        <section id="livros-listagem">
+            <h2>Listagem de Livros</h2>
+            <ul id="livros-lista"></ul>
+        </section>
+        <section id="formulario-cadastro">
+            <h2>Cadastro de Livro</h2>
+            <form id="form-cadastro">
+                <div>
+                    <label for="titulo">Título:</label>
+                    <input type="text" id="titulo" name="titulo" required>
+                </div>
+                <div>
+                    <label for="autor">Autor:</label>
+                    <input type="text" id="autor" name="autor" required>
+                </div>
+                <div>
+                    <label for="genero">Gênero:</label>
+                    <input type="text" id="genero" name="genero" required>
+                </div>
+                <div>
+                    <label for="exemplares">Exemplares Disponíveis:</label>
+                    <input type="number" id="exemplares" name="exemplares" required>
+                </div>
+                <div>
+                    <label for="imagem">URL da Imagem da Capa:</label>
+                    <input type="url" id="imagem" name="imagem" required>
+                </div>
+                <button type="submit">Cadastrar Livro</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Modal de Edição -->
+    <div class="modal fade" id="modalEditarLivro" tabindex="-1" role="dialog" aria-labelledby="modalEditarLivroLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalEditarLivroLabel">Editar Livro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="formEditarLivro">
+                        <input type="hidden" id="livroId">
+                        <div>
+                            <label for="novoTitulo">Novo Título:</label>
+                            <input type="text" id="novoTitulo" name="novoTitulo" required>
+                        </div>
+                        <div>
+                            <label for="novoAutor">Novo Autor:</label>
+                            <input type="text" id="novoAutor" name="novoAutor" required>
+                        </div>
+                        <div>
+                            <label for="novoGenero">Novo Gênero:</label>
+                            <input type="text" id="novoGenero" name="novoGenero" required>
+                        </div>
+                        <div>
+                            <label for="novosExemplares">Novos Exemplares Disponíveis:</label>
+                            <input type="number" id="novosExemplares" name="novosExemplares" required>
+                        </div>
+                        <div>
+                            <label for="novaImagem">Nova URL da Imagem da Capa:</label>
+                            <input type="url" id="novaImagem" name="novaImagem" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
