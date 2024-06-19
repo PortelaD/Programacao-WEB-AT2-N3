@@ -13,8 +13,7 @@
 Primeiramente, atente-se e veja se você já possui o node instalado. Para isso, vá ao seu prompt de comando e digite node -v. O resultado esperado deve ser a versão 
  do seu node, caso contrário, baixe-o e instale-o. 
   Depois rode o comando, npm install, e depois de ter rodado as dependências, rode o comando node server.js. O resultado esperado deve ser o servidor rodando e te
-  retornando uma mensagem "Conexão com o banco feita com sucesso". Depois é só testar com os comandos. Ressalto aqui que você deve ter o Postman na sua máquina para testar a
-  Api. 
+  retornando uma mensagem "Conexão com o banco feita com sucesso".
 
 
 ## Tecnologias utilizadas
