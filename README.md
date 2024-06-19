@@ -5,15 +5,6 @@
 
 - Essa api feita em Node.js usando Express, foi desenvolvida com o intuito de criar um crud de uma livraria
 ## Status do Projeto
-
-
-## :hammer: Funcionalidades do projeto
-
-- LIVROS
-  - GET
-  - POST 
-  - PUT
-  - DELETE 
       
 ## 📁 Acesso ao projeto
 
