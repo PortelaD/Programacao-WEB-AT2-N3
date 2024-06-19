@@ -3,9 +3,7 @@
 
 ## Descrição do Projeto
 
-- Essa api feita em Node.js usando Express, foi desenvolvida com o intuito de criar um crud de uma livraria
-## Status do Projeto
-      
+- Essa api feita em Node.js usando Express, foi desenvolvida com o intuito de criar um crud de uma livraria    
 ## 📁 Acesso ao projeto
 
 **Você pode acessar o código fonte principal do projeto nesse repositório ou baixá-lo como arquivo zip**
